@@ -1,0 +1,542 @@
+body {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+}
+
+
+/* {% comment %} /////////////////////////////////////////          //////////////////////////////////////////////// {% endcomment %} */
+
+#header{
+    font-size: 20px;
+    display: block;
+    display: flex;
+    /* margin: 8px 40px; */
+    list-style: none;
+    background-color:  white;
+    /* position: sticky; */
+} 
+
+.girlboss{
+    padding-top: 22px;
+    padding-left: 40px;
+} 
+
+.mid{
+    padding: 20px 40px;
+}
+
+.navbar li a{
+    font-size: 19px;
+    text-decoration: none;
+    color: #262626;
+    margin: 0px;
+}
+
+.navbar li a:hover{
+    text-decoration: underline;
+    color: #585656;
+}
+
+
+.navbar li{
+    list-style: none;
+    padding: 1px 30px;
+}
+
+.right{
+    padding-top: 0px 40px;
+}
+
+.search_box img{
+    /* padding-top: 17px; */
+    margin-top: 25px;
+    position: absolute;
+    right: 42px;
+    width: 40px;
+    height: 40px;
+}
+
+.search_box input{
+    margin-top: 25px;
+    border: 1px solid #e4e4e4;
+    font-size: 17px;
+    padding: 2px 9px;
+    width: 210px;
+    position: absolute;
+    height: 40px;
+    right: 40px;
+}
+
+/* {% comment %} /////////////////////////////////////////          //////////////////////////////////////////////// {% endcomment %} */
+
+#demo{
+    padding-top: 104px;
+}
+
+.carousel-inner .carousel-caption{
+    text-align: left;
+    width: 41%;
+    color: black;
+}
+
+.carousel-inner .carousel-caption p{
+    font-size: 24px;   
+}
+
+.carousel-inner .carousel-caption h1{
+    font-size: 51px;
+    padding-bottom: 40px;    
+}
+
+.carousel-inner .carousel-caption a{
+    text-align: center;
+    padding: 14px 24px;
+    background-color: black;
+    color: whitesmoke;
+    text-decoration: none;
+    width: 130px;
+    font-size: 21px;
+}
+
+/* {% comment %} /////////////////////////////////////////          //////////////////////////////////////////////// {% endcomment %} */
+
+#header1{
+    font-size: 20px;
+    display: block;
+    display: flex;
+    list-style: none;
+    margin: 0px;
+} 
+
+.mid1{
+    padding: 30px 5px;
+}
+
+
+.container {
+    padding:  10px 30px;
+    margin: 0px;
+} 
+
+
+.container .box #how1{
+    font-size: 21px;
+    padding: 10px 0px; 
+}
+
+.container .box em{
+    font-size: 28px;
+} 
+
+.container .box em:hover{
+    color: #585656;
+} 
+
+.container .box img:hover {
+    transform: scale(1.02);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+
+/* {% comment %} /////////////////////////////////////////          //////////////////////////////////////////////// {% endcomment %} */
+
+
+
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 5fr);
+    padding:  70px 30px;
+}
+
+.container2 .box img {
+    width:580px;
+}
+
+.container2 #box4{
+    padding-top: 26px;
+}
+
+.container2 .box #how1{
+    /* font-size: 21px; */
+    padding: 10px 0px;
+}
+
+.container2 .box em{
+    font-size: 28px;
+    /* font-family: 'Metal', serif;  */
+    /* line-height: 3px; */
+} 
+
+.container2 .box em:hover{
+    color: #585656;
+} 
+
+.container2 .box img:hover {
+    transform: scale(1.02);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+
+
+/* {% comment %} /////////////////////////////////////////          //////////////////////////////////////////////// {% endcomment %} */
+
+
+/* .container4{
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+} */
+ 
+.container5{
+    position: absolute;
+    z-index: 1;
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+    padding-left: 790px;
+    padding-top: 80px;
+    font-weight: 400;
+    width: 90%;
+}
+
+.container5 #box3 p{
+    font-size: 61px;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: normal;
+    font-weight: 400;
+    color: #262626;
+    line-height: 1.05em;
+}  
+
+.container5 #box3 em{
+    font-size: 61px;
+    font-family: 'Metal', serif; 
+    line-height: 1.05em;
+}  
+
+
+.container5 #box3 #parabox{
+    margin-top: 10%;
+    font-size: 18px;
+    color: whitesmoke;
+    color: #262626;
+    letter-spacing: normal;
+}  
+
+.container5 #box3 input{
+    margin-top: 35px; 
+    border: 1px solid #e4e4e4;
+    font-size: 17px;
+    padding: 2px 9px;
+    width: 212px;
+    height: 48.5px;
+    position: absolute;
+    z-index: 0;
+    border-radius: 2px;
+} 
+
+.container5 #box3 #sub{
+    padding-left: 195px;
+    border-radius: 2px;
+} 
+
+.container5 #box3 a{
+    margin-top: 35px; 
+    text-align: center;
+    font-family: "Avenir Next", sans-serif;
+    padding: 9px 13px;
+    background-color: black;
+    color: whitesmoke;
+    text-decoration: none;
+    position: absolute;
+    z-index: 1; 
+    width: 150px;
+    border-radius: 2px;
+} 
+
+.container6 {
+    position: absolute;
+    padding-top: 90px;
+    padding-left: 240px;
+    z-index: 1;
+} 
+
+.container6 #box1{
+    /* background-color: aqua; */
+    text-align: center;
+    justify-content: center;
+    width: 90%;
+} 
+
+.container6 #box1 p{
+    font-size: 57px;
+} 
+
+.container6 #box1 #parabox{
+    /* background-color: #262626; */
+    color: #000000;
+    font-size: 21px;
+    width: 85%;
+    text-align: center;
+    justify-content: center;
+    padding-left: 55px;
+} 
+
+.container6 #box1 a{
+    text-align: center;
+    padding: 14px 24px;
+    background-color: black;
+    color: whitesmoke;
+    text-decoration: none;
+    width: 150px;
+    font-size: 21px;
+    border-radius: 2.5px;
+} 
+
+.container6 #box1 #sub{
+    padding-top: 35px;
+    padding-right: 60px;
+} 
+
+.container6 #box1 em{
+    font-family: 'Metal', serif; 
+} 
+
+.container8{
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 30px; 
+    z-index: 1;
+} 
+
+.container8 #parabox{
+    padding-top: 30px;
+    width: 39%;
+    font-size: 20px;
+} 
+
+.container8 .section5{
+    padding-top: 30px;
+    margin-left: 1%;
+} 
+
+
+.product2 {
+    /* font-family: "Source Serif Pro", serif; */
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    margin: 60px 0px;
+    font-size: 60px;
+}
+
+.container10 {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    margin: 0px 10px;
+}
+
+
+.container10 .box img {
+    width:380px;
+}
+
+.container10 .box{
+    margin-left: 20px;
+}
+
+.container10 .box #how1{
+    font-size: 19px;
+    padding: 10px 0px;
+}
+
+.container10 .box em{
+    font-size: 26px;
+} 
+
+.container10 .box em:hover{
+    color: #585656;
+} 
+
+.container10 .box img:hover {
+    transform: scale(1.02);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+
+.container11 {
+    background-color: #141212;
+    width: 100%;
+    height: 489px;
+    color: #fff;
+    /* position: absolute;
+    z-index: 0; */
+}  
+
+
+.container11 .girlboss {
+    padding-top: 38px;
+    width: 100px;
+    height: 30px;
+} 
+
+.container11 .girlboss a{
+    color: whitesmoke;
+} 
+
+.container11 .product3{
+    color: whitesmoke;
+    width: 410px;
+    font-size: 36px;
+    padding-top: 40px;
+} 
+
+.container11 .Mode {
+    margin: 0%;
+    padding-top: 20px;
+}
+
+.container11 #Mode1 {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    display: flex;
+}
+
+.container11 #Mode1 a {
+    color: white;
+    padding: 11px;
+}
+
+.container11 #Mode1 a {
+    color: white;
+    padding: 11px;
+}
+
+.container11 .product4{
+    font-size: 20px;
+    width: 215px;
+    padding-top: 50px;
+} 
+
+.container11 .section4{
+    font-size: 17px;
+    width: 210px;
+    padding-top: 46px;
+}  
+
+.container13 {
+    font-size: 20px;
+    padding-left: 865px;
+    padding-top: 115px; 
+    font-weight: 400;
+    /* width: 90%; */
+    position: absolute;
+    z-index: 0;
+    color: white;
+} 
+
+/* .container13 .section4 #box3{
+    padding-left: 865px;
+    padding-top: 100px;
+    font-weight: 400;
+    width: 90%; 
+}   */
+
+.container13 #box3 p{
+    font-size: 36px;
+}  
+
+.container13 #box3 #parabox{
+    width: 80%;
+} 
+
+.container13 #box3 input{
+    margin-top: 35px; 
+    border: 1px solid #e4e4e4;
+    padding: 2px 9px;
+    width: 212px;
+    height: 48px;
+    position: absolute;
+    z-index: 0;
+    border-radius: 2px;
+} 
+
+.container13 #box3 #sub{
+    padding-left: 195px;
+} 
+
+.container13 #box3 a{
+    margin-top: 35px; 
+    text-align: center;
+    padding: 9px 13px;
+    background-color: #006268;;
+    color: whitesmoke;
+    text-decoration: none;
+    position: absolute;
+    z-index: 1; 
+    width: 150px;
+    border-radius: 2px;
+} 
+
+.container14 {
+    padding-left: 460px;
+    padding-top: 190px; 
+    font-weight: 400;
+    font-size: 19px;
+    position: absolute;
+    z-index: 0;
+} 
+
+.container14 .sem3 a{
+    text-decoration: none;
+    color: white;
+} 
+
+.container14 .sem3 ul{
+    list-style: none;
+} 
+
+.container15 {
+    padding-left: 660px;
+    padding-top: 190px; 
+    font-weight: 400;
+    font-size: 19px;
+    position: absolute;
+    z-index: 0;
+} 
+
+.container15 .sem3 a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+} 
+
+.container15 .sem3 li{
+    list-style: none;
+} 
+
+.dropdown button{
+    background-color: #fff;
+}
+
+.dropdown button:hover{
+    background-color: #c9c3c3;
+} 
+
+.dropdown{
+    padding-left: 90%;
+    padding-top: 320px; 
+}
+
+.container17 {
+    background-color: white;
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    z-index: 0;
+} 
